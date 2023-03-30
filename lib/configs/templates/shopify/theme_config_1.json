@@ -1,0 +1,136 @@
+{
+  "TabBar": [
+    {
+      "layout": "dynamic",
+      "label": "Home",
+      "icon": "assets/icons/tab_bar/ic_home.svg",
+      "items": [
+        {
+          "layout": "header",
+          "title":"MFShop",
+          "showSearch": true,
+          "showCart": true
+        },
+        {
+          "layout": "banner",
+          "height": 180,
+          "items": [
+            {
+              "image": "assets/images/banner/men.jpeg",
+              "categoryID": "men"
+            },
+            {
+              "image": "assets/images/banner/vans.jpeg",
+              "categoryID": "vans"
+            },
+            {
+              "image": "assets/images/banner/shose.jpeg",
+              "categoryID": "women"
+            }
+          ]
+        },
+        {
+          "layout": "products",
+          "itemLayout": "twoItems",
+          "bestSelling": true,
+          "title": "Best Selling"
+        },
+        {
+          "layout": "products",
+          "itemLayout": "threeItems",
+          "categoryID": "women",
+          "title": "Sale Off"
+        },
+        {
+          "layout": "products",
+          "itemLayout": "list",
+          "categoryID": "men",
+          "title": "Most Popular"
+        }
+      ]
+    },
+    {
+      "layout": "dynamic",
+      "label": "Hot",
+      "icon": "assets/icons/tab_bar/ic_shopping.svg",
+      "backgroundImage": "assets/images/background.jpeg",
+      "items": [
+        {
+          "layout": "categories",
+          "iconSize": 60,
+          "iconHorizontalMargin": 5,
+          "itemMargin": 15,
+          "items": [
+            {
+              "categoryID": "men",
+              "label": "Men",
+              "icon": "assets/images/category/boss.png"
+            },
+            {
+              "categoryID": "women",
+              "label": "Women",
+              "icon": "assets/images/category/woman.png"
+            },
+            {
+              "categoryID": "adidas",
+              "label": "Shoes",
+              "icon": "assets/images/category/shoes.png"
+            },
+            {
+              "categoryID": "nike",
+              "label": "Nike",
+              "icon": "assets/images/category/nike.png"
+            },
+            {
+              "categoryID": "converse",
+              "label": "Converse",
+              "icon": "assets/images/category/conversion.png"
+            },
+            {
+              "categoryID": "vans",
+              "label": "Vans",
+              "icon": "assets/images/category/food-truck.png"
+            },
+            {
+              "categoryID": "puma",
+              "label": "Puma",
+              "icon": "assets/images/category/cougar.png"
+            },
+            {
+              "categoryID": "kid",
+              "label": "Kid",
+              "icon": "assets/images/category/son.png"
+            }
+          ]
+        },
+        {
+          "layout": "products",
+          "itemLayout": "twoItems",
+          "bestSelling": true,
+          "title": "Best Seller"
+        },
+        {
+          "layout": "products",
+          "itemLayout": "threeItems",
+          "categoryID": "women",
+          "title": "Sale Off"
+        }
+      ]
+    },
+    {
+      "layout": "category",
+      "label": "Category",
+      "icon": "assets/icons/tab_bar/ic_category.svg"
+    },
+    {
+      "layout": "cart",
+      "label": "Cart",
+      "icon": "assets/icons/tab_bar/ic_cart.svg"
+    },
+    {
+      "layout": "settings",
+      "label": "Settings",
+      "icon": "assets/icons/tab_bar/ic_settings.svg"
+    }
+  ]
+}
